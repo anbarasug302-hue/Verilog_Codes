@@ -15,7 +15,7 @@ module full_adder_tb;
     .Carry(Carry));
   
   initial begin
-    $dumpfile("full_adder");
+    $dumpfile("full_adder.vcd");
     $dumpvars(0,full_adder_tb);
     
     
